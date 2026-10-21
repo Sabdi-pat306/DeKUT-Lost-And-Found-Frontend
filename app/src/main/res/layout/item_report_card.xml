@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_marginBottom="12dp"
+    android:background="#F3F6F8">
+
+    <ImageView
+        android:id="@+id/itemImage"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:scaleType="centerCrop"
+        android:contentDescription="Photo of reported item"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/itemTypeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOST ITEM"
+        android:textStyle="bold"
+        android:textColor="#1565C0"
+        android:textSize="12sp"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/itemDescriptionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Black laptop bag"
+        android:textColor="#263238"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="6dp" />
+
+    <TextView
+        android:id="@+id/itemCategoryText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Category: Electronics"
+        android:textColor="#455A64"
+        android:textSize="14sp"
+        android:layout_marginTop="6dp" />
+
+    <TextView
+        android:id="@+id/itemLocationText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Location: Library"
+        android:textColor="#455A64"
+        android:textSize="14sp"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/itemDateText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date: 2026-10-16"
+        android:textColor="#546E7A"
+        android:textSize="14sp"
+        android:layout_marginTop="6dp" />
+
+    <TextView
+        android:id="@+id/itemStatusText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status: active"
+        android:textColor="#2E7D32"
+        android:textSize="14sp"
+        android:layout_marginTop="4dp" />
+
+</LinearLayout>
