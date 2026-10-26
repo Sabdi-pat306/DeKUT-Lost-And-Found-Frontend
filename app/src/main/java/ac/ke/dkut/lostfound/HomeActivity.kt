@@ -25,15 +25,19 @@ class HomeActivity : AppCompatActivity() {
                 openLogin()
             }
 
-        findViewById<Button>(R.id.reportLostButton)
-            .setOnClickListener {
-                showComingSoon()
-            }
+        findViewById<Button>(R.id.reportLostButton).setOnClickListener {
+            startActivity(
+                Intent(this, ReportLostActivity::class.java)
+            )
+        }
 
-        findViewById<Button>(R.id.reportFoundButton)
-            .setOnClickListener {
-                showComingSoon()
-            }
+
+        findViewById<Button>(R.id.reportFoundButton).setOnClickListener {
+            startActivity(
+                Intent(this, ReportFoundActivity::class.java)
+            )
+        }
+
 
         findViewById<Button>(R.id.searchItemsButton).setOnClickListener {
             startActivity(

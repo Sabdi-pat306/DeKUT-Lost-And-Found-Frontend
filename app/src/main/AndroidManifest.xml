@@ -13,6 +13,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DekutLostAndFound"
         android:usesCleartextTraffic="true">
+
+        <activity
+            android:name=".ReportFoundActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ReportLostActivity"
+            android:exported="false" />
+
         <activity
             android:name=".SearchItemsActivity"
             android:exported="false" />
@@ -23,6 +32,7 @@
             android:name=".MainActivity"
             android:exported="true"
             android:windowSoftInputMode="adjustResize">
+
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
